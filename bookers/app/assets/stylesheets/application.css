@@ -61,7 +61,7 @@ td {
    padding-right: 5px;
 }
 
-.field {
+.field, .action {
    margin-bottom: 10px;
 }
 
