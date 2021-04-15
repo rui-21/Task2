@@ -13,12 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ 
+ /* リセットCSS */
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
+/* 全体用 */
 body {
    color: #333;
    font-family: verdana, arial, helvetica, sans-serif;
@@ -27,10 +30,12 @@ body {
    margin: 33px;
 }
 
+/* サクセスメッセージ用 */
 #notice {
    color: green;
 }
 
+/* エラーメッセージ用 */
 #error_explanation {
    width: 450px;
    border: 2px solid red;
@@ -59,6 +64,7 @@ body {
    list-style: square;
 }
 
+/* 各レイアウト */
 h1 {
    margin: 17px 0;
 }
@@ -93,6 +99,7 @@ td {
    padding-right: 5px;
 }
 
+/* フォーム用 */
 .field, .action {
    margin-bottom: 10px;
 }
